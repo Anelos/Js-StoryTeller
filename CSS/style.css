@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "CaviarDreams";
+    src: url("../Fonts/CaviarDreams.ttf");
+}
+@font-face {
+    font-family: "yerbaluisa";
+    src: url("../Fonts/yerbaluisa_demo-font-FFP.ttf");
+}
+body{
+    background-image: url(../Images/back.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    font-family: "yerbaluisa";
+    font-size: 75px;
+}
+div {
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+    position: absolute;
+}
+#bouton {
+    position: relative;
+    width: 100px;
+    height: 60px;
+    margin: 0px Auto;
+    background-color: lightgray;
+    border: 1px solid gray;
+    text-align: center;
+    cursor: pointer;
+}
+#histoire {
+    font-family: "CaviarDreams";
+    visibility: hidden;
+    text-align: center;
+}
+span {
+    color: cadetblue;
+}
